@@ -20,7 +20,7 @@ def send_mail():
     with open(attachment, "rb") as fo:
         msg = MIMEText(fo.read())
 
-    msg['Subject'] = subject'
+    msg['Subject'] = subject
     msg['From'] = fromaddr
     msg['To'] = toaddr
 
