@@ -9,9 +9,9 @@
 from email.mime.text import MIMEText
 import smtplib
 
-webteam = ['matt.sanderson@encana.com', 'logan.noonan@encana.com', 'adam.stewart@encana.com']
-toaddr = webteam
-fromaddr = 'matt.sanderson@encana.com'
+mailing_list = ['']
+toaddr = mailing_list
+fromaddr = ''
 subject = ''
 attachment = ''
 mailhost = 'mailhost'
